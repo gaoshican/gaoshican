@@ -1,0 +1,130 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    line-height: 12px;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+    padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+html {
+    font-size: 10px;
+}
+
+h1,
+h2 {
+    font-size: 200%;
+}
+
+p {
+    font-size: 80%;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+body {
+    letter-spacing: normal;
+    word-spacing: 2px;
+}
+
+h2+p {
+    text-indent: 20px;
+}
+
+a:link,
+a:visited,
+a:focus,
+a:hover {
+    color: #a66;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(51, 0, 255);
+}
+
+section p a {
+    background: url(../照片/链接图标.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: 100%;
+    padding-right: 12px;
+}
+
+ul,
+ol {
+    line-height: 15px;
+}
+
+ol li {
+    list-style-type: lower-alpha;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    /* width: 100%; */
+    border: 1px solid blanchedalmond;
+    /* padding: 12px; */
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+}
+
+
+/* WRITE YOUR CODE BELOW HERE */
